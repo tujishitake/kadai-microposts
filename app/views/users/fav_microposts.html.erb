@@ -1,0 +1,7 @@
+<h1 class=text-center><%= current_user.name %> のお気に入り一覧</h1>
+
+<div class="row">
+  <div class="col-xs-offset-4 col-xs-4">
+    <%= render 'microposts/microposts', microposts: @fav_microposts %>  
+  </div>
+</div>
